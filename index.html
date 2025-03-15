@@ -8,6 +8,14 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="styles.css" rel="stylesheet">
+    <script>
+    // Check if the user has visited the loading page before
+    if (!sessionStorage.getItem('visited')) {
+        sessionStorage.setItem('visited', true);
+        window.location.href = "MovEazy_loading.htm"; // Redirect to loading page first
+    }
+</script>
+
 </head>
 
 <body>
