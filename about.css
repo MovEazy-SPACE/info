@@ -1,0 +1,136 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: cyan;
+}
+
+/* Hero Section */
+.hero-image {
+    background: linear-gradient(to bottom, hsla(0, 0%, 0%, 0.8), hsla(0, 0%, 0%, 0.6)), url('hero-image[1].jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 5rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* About Content Section */
+.about-content{
+    padding: 50px 20vw;
+    background-color: #1b1b1b;
+    color: white;
+    text-align: start;
+
+}
+.about-heading-highlight{
+    color: dodgerblue;
+    font-size: 3rem;
+}
+/* .about-content {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #1b1b1b;
+    color: white; 
+} */
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: cyan; /* Highlighted heading */
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+.about-content ul{
+    list-style-type: disc;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.about-content ul li{
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+li::marker{
+    color: aqua;
+    font-size: 1.2rem;
+}
+.text-center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.text-center a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 1rem;
+    border: 2px solid #fff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+.text-center a:hover{
+    color: aqua;
+    transition: 0.3s;
+    border: 2px solid aqua;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-text h1 {
+        font-size: 3rem;
+    }
+
+    .about-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-content p {
+        font-size: 1rem;
+    }
+    .about-content{
+        padding: 50px 20px;
+
+    
+    }
+}

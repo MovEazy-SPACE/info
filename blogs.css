@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3ebeb;
+    text-align: center;
+}
+.blog-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    position: relative;
+    color: black; /* Fixed this */
+}
+
+
+.blog-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size: cover;
+    background-position: center;
+}
+
+.blog-container h1 {
+    color: #fff;
+}
+
+.blog-content {
+    font-size: 1rem;
+}
+
+.btn-back {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #0056b3;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
