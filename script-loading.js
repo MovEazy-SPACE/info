@@ -1,5 +1,5 @@
-document.addEventListener('DOMContentLoaded', function() {
+
     setTimeout(function() {
-        window.location.href = "index.html"; // Redirect after 3 seconds
+        window.location.href = "index.html"; // Redirect to homepage after loading
     }, 3000);
-});
+
