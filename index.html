@@ -10,6 +10,13 @@
     <link href="style.css" rel="stylesheet">
     <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+     <script>
+        // Check if the user has visited the loading page before
+        if (!sessionStorage.getItem('visited')) {
+            sessionStorage.setItem('visited', true);
+            window.location.href = "MovEazy_loading.htm"; // Redirect to loading page first
+        }
+    </script>
 </head>
 
 <body>
@@ -108,32 +115,35 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contacts" class="section contacts">
-        <div class="container">
-            <h2 class="text-center">Contacts</h2>
-            <div class="contact-container">
-                <div class="contact-card">
-                    <img src="images/amal profile.jpg" alt="Co-founder 1">
-                    <p><strong>Amal Jazim</strong> - CEO</p>
-                    <p>Mob no: 9207238992</p>
-                    <p>Email: amaljazim@gmail.com</p>
-                </div>
-                <div class="contact-card">
-                    <img src="images/naman profile.jpg" alt="Co-founder 2">
-                    <p><strong>Md Naman Ahmad</strong> - COO</p>
-                    <p>Mob no :9122007004</p>
-                    <p>Email: namanahmad404@gmail.com</p>
-                </div>
-                <div class="contact-card">
-                    <img src="images/nav profile.jpg" alt="Co-founder 3">
-                    <p><strong>Navthej Bhaskar</strong> - CTO</p>
-                    <p>Mob no:8921407896</p>
-                    <p>Email: navthejbhaskar@gmail.com</p>
-                </div>
+   <!-- Contact Section -->
+<section id="contacts" class="section contacts">
+    <div class="container">
+        <h2 class="text-center">Co-Founders</h2>
+        <div class="contact-container">
+            <div class="contact-card">
+                <img src="amal profile.jpg" alt="Co-founder 1">
+                <p><strong>Amal Jazim</strong></p>
+                <p>Phone: <a href="tel:+919207238992">+91 9207238992</a></p>
+                <p>Email: <a href="mailto:amaljazim@gmail.com">amaljazim@gmail.com</a></p>
+            </div>
+
+            <div class="contact-card">
+                <img src="naman profile.jpg" alt="Co-founder 2">
+                <p><strong>Md Naman Ahmad</strong></p>
+                <p>Phone: <a href="tel:+919122007004">+91 9122007004</a></p>
+                <p>Email: <a href="mailto:namanahmad404@gmail.com">namanahmad404@gmail.com</a></p>
+            </div>
+
+            <div class="contact-card">
+                <img src="nav profile.jpg" alt="Co-founder 3">
+                <p><strong>Navthej Bhaskar</strong></p>
+                <p>Phone: <a href="tel:+918921407896">+91 8921407896</a></p>
+                <p>Email: <a href="mailto:navthejbhaskar@gmail.com">navthejbhaskar@gmail.com</a></p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+
     <!-- blogs -->
 
     <!-- Blog Section -->
