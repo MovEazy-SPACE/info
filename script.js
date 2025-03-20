@@ -1,3 +1,16 @@
+const observer1 = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if(entry.isIntersecting){
+            entry.target.classList.add('show-hori');
+        }
+    })
+});
+
+const hiddenElements1 = document.querySelectorAll('.hidden-hori');
+hiddenElements1.forEach((el) => observer1.observe(el))
+
+
+
 window.addEventListener("scroll", function () {
     var nav = document.querySelector("nav");
     nav.classList.toggle("sticky", window.scrollY > 0);
