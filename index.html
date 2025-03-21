@@ -1,28 +1,193 @@
-<!-- Contact Section -->
-<section class="contacts-container">
-    <section id="contacts" class="section contacts">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovEazy - Expand Your Business</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
-            <h2 class="text-center text-white">Contacts</h2>
-            <div class="contact-container">
-                <div class="contact-card hidden-hori">
-                    <img src="images/amal profile.jpg" alt="Co-founder 1">
-                    <p><strong>Amal Jazim</strong> - CEO</p>
-                    <p>Phone: <a href="tel:+919207238992">+91 9207238992</a></p>
-                    <p>Email: <a href="mailto:amaljazim@gmail.com">amaljazim@gmail.com</a></p>
+            <a class="navbar-brand" href="#">MovEazy</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-white text-center d-flex align-items-center">
+        <div class="container">
+            <h1 class="display-4" style="color: whitesmoke;">MovEazy: Your Business Expansion Partner</h1>
+            <p class="lead">Helping brands find the perfect locations and set up seamlessly!</p>
+            <a href="#services" class="btn btn-warning btn-lg mt-3">Explore Services</a>
+        </div>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="about py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 hidden-hori">About Moveazy</h2>
+            <p class="text-center hidden-hori"> Moveazy is a one-stop business expansion platform that helps brands and restaurants
+                find prime vacant shop locations, conduct in-depth market analysis, and set up fully furnished,
+                ready-to-move showrooms. We simplify the expansion process by providing end-to-end solutions, enabling
+                businesses to scale efficiently and establish a strong presence in new markets.</p>
+            <div class="text-center mt-4 hidden-hori">
+                <a href="about.html" class="about-readmore">Read More </a>
+                <a class="read-more-arrow" href="about.html">&#8594;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services py-5">
+        <div class="container">
+            <h2 class="services-h2 text-center mb-4">Our Services</h2>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img class="img-fluid" src="images/empty-box.png" alt="">
+                            <div>
+                                <h5 class="card-title">Vacant Shop Options</h5>
+                            <p class="card-text">Find the perfect location for your brand with our curated shop
+                                listings.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-card hidden-hori">
-                    <img src="images/naman profile.jpg" alt="Co-founder 2">
-                    <p><strong>Md Naman Ahmad</strong> - COO</p>
-                    <p>Phone: <a href="tel:+919122007004">+91 9122007004</a></p>
-                    <p>Email: <a href="mailto:namanahmad404@gmail.com">namanahmad404@gmail.com</a></p>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/market-analysis.png" alt="">
+                            <div>
+                                <h5 class="card-title">Market Analysis</h5>
+                            <p class="card-text">We provide data-driven insights to ensure your expansion is a success.
+                            </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contact-card hidden-hori">
-                    <img src="images/nav profile.jpg" alt="Co-founder 3">
-                    <p><strong>Navthej Bhaskar</strong> - CTO</p>
-                    <p>Phone: <a href="tel:+918921407896">+91 8921407896</a></p>
-                    <p>Email: <a href="mailto:navthejbhaskar@gmail.com">navthejbhaskar@gmail.com</a></p>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <div class="card-body text-center">
+                            <img src="images/furnished.png" alt="">
+                            <div>
+                                <h5 class="card-title">Fully Furnished Showrooms</h5>
+                            <p class="card-text">Get a ready-to-move showroom with our expert setup services.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-</section>
+
+    <!-- Contact Section -->
+     
+    <!-- Contact Section -->
+    <section class="contacts-container">
+        <section id="contacts" class="section contacts">
+            <div class="container">
+                <h2 class="text-center text-white">Contacts</h2>
+                <div class="contact-container">
+                    <div class="contact-card hidden-hori">
+                        <img src="images/amal profile.jpg" alt="Co-founder 1">
+                        <p><strong>Amal Jazim</strong> - CEO</p>
+                        <p>Phone: <a href="tel:+919207238992">+91 9207238992</a></p>
+                        <p>Email: <a href="mailto:amaljazim@gmail.com">amaljazim@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card hidden-hori">
+                        <img src="images/naman profile.jpg" alt="Co-founder 2">
+                        <p><strong>Md Naman Ahmad</strong> - COO</p>
+                        <p>Phone: <a href="tel:+919122007004">+91 9122007004</a></p>
+                        <p>Email: <a href="mailto:namanahmad404@gmail.com">namanahmad404@gmail.com</a></p>
+                    </div>
+                    <div class="contact-card hidden-hori">
+                        <img src="images/nav profile.jpg" alt="Co-founder 3">
+                        <p><strong>Navthej Bhaskar</strong> - CTO</p>
+                        <p>Phone: <a href="tel:+918921407896">+91 8921407896</a></p>
+                        <p>Email: <a href="mailto:navthejbhaskar@gmail.com">navthejbhaskar@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+</body>
+    
+    <!-- blogs -->
+
+    <!-- Blog Section -->
+    <section id="blogs" class="blog-section">
+        <h2>Latest Blogs</h2>
+        <div class="blog-container">
+            <div class="blog-card hidden-hori">
+                <img src="images/blog image1.jpg" alt="Blog 1">
+                <div class="blog-desc-container">
+                    <h3>Latest Trends in Real Estate Expansion</h3>
+                    <p>Explore how market dynamics are shaping commercial expansion.</p>
+                    <a href="blogs.html?blog=real-estate-trends" class="read-more">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card hidden-hori">
+                <img src="images/blog image 2.png" alt="Blog 2">
+                <div class="blog-desc-container">
+                    <h3>Why Location Matters for Your Brand</h3>
+                    <p>Choosing the right spot can make or break your business success.</p>
+                    <a href="blogs.html?blog=location-matters" class="read-more">Read More</a>
+                </div>
+                
+            </div>
+            <div class="blog-card hidden-hori">
+                <img src="images/blog images3.jpg" alt="Blog 3">
+                <div class="blog-desc-container">
+                    <h3>Turnkey Solutions for Business Growth</h3>
+                    <p>See how MovEazy helps brands expand effortlessly.</p>
+                    <a href="blogs.html?blog=turnkey-solutions" class="read-more">Read More</a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2025 MovEazy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
+ 
